@@ -40,15 +40,15 @@ export class HomeComponent {
     this.selectedProjects = this.getFilteredProjects();
     console.log('working update', this.selectedPrograms);
   }
-  selectProject(project: any) {
+  /* selectProject(project: any) {
     if (this.selectedProjects.includes(project)) {
-      this.selectedProjects = this.selectedProjects.filter(
-        (proj) => proj !== project
-      );
-    } else {
-      this.selectedProjects.push(project);
-    }
-  }
+     this.selectedProjects = this.selectedProjects.filter(
+         (proj) => proj !== project
+       );
+     } else {
+       this.selectedProjects.push(project);
+     }
+   }*/
   getFilteredProjects(): any[] {
     let filteredProjects: any[] = [];
 
